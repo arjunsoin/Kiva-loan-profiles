@@ -7,7 +7,7 @@ import os
 from selenium import webdriver
 from bs4 import BeautifulSoup
 
-## Get the html code of webpage and convert into soup element for parsing
+## Get the html code of webpage and convert into 'Beautiful Soup' element for parsing
 def access_source_code(url):
 	chromedriver = "/Users/arjunsoin/Desktop/chromedriver"
 	browser = webdriver.Chrome(chromedriver)
