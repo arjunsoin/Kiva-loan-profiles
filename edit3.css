@@ -1,0 +1,192 @@
+.borrower-profile-pieces {
+  background: #FFF;
+}
+
+.loan-details {
+  display: none;
+}
+
+.right-content {
+  background: #FFF;
+}
+
+.left-content.columns {
+  background: #FFF;
+}
+
+.right-content.columns {
+  background: #FFF;
+  margin-left: 50px;
+}
+
+.loan-description > p {
+    font-size: 13px;
+    line-height: 130%;
+    float: right;
+}
+
+.ac-title.ac-container > h2 {
+  font-size: 14px;
+}
+
+.green-bolded.endorsement {
+  font-size: 13px;
+  margin-top: -5px;
+  line-height: 200%;
+}
+
+.borrower-profile-wrapper .loan-story, .borrower-profile-wrapper .loan-details {
+  width: 150%;
+}
+
+.loan-stats {
+  display: none;
+}
+
+.lenders-teams {
+  display: none;
+}
+
+.loan-figure {
+  top: 50px;
+}
+
+.loan-use {
+  width: 400px;
+  margin-left: 150px;
+}
+
+.loan-use > h2 {
+  font-size: 14px;
+  line-height: 150%;
+  overflow-wrap: break-word;
+}
+
+.small-12.medium-5.print-5.columns.right-content{
+  left: 50px;
+}
+
+.country-info {
+  display: none;
+}
+
+.current-status-meter {
+  display: none;
+}
+
+.raised-info .row {
+  display: none;
+}
+
+.show-for-large-up .lend-action {
+  display: none;
+}
+
+.full-width-green-bar {
+  display: none;
+}
+
+.xbLegacyNav {
+  display: none;
+}
+
+.row .header-row {
+  display: none;
+}
+
+.lend-action-holder {
+  display: none;
+}
+
+.loan-tags {
+  display: none;
+}
+
+.small-12.medium-5.print-5.columns{
+  z-index: 1000;
+  position: absolute!important;
+}
+
+.field-partner-details {
+  display: none;
+}
+
+.loan-image {
+  width: 23%;
+}
+
+.borrower-profile-pieces {
+  background: #FFF;
+}
+
+.line-break {
+  display: none;
+}
+
+.more-loan-info {
+  display: none;
+}
+
+.why-special + hr {
+  display: none;
+}
+
+.lenders-teams + hr {
+  display: none;
+}
+
+.country-info + hr {
+  display: none;
+}
+
+.more-loan-info + hr {
+  display: none;
+}
+
+.hide-for-large-up + hr {
+  display: none;
+}
+
+.left-content.columns > .borrower-profile-pieces {
+        position:absolute;
+   top:0;
+   right:0;
+}
+
+.loan-gist {
+
+}
+
+ /* .right-content {
+  display: none;
+} */
+
+.row{
+  background-color: #fff!important;
+}
+
+.borrower-profile-pieces {
+      box-sizing: unset!important;
+      background: #FFF!important;
+      border-top: none!important;
+      border-bottom: none!important;
+      position: absolute!important;
+      top: 0!important;
+      right:0!important;
+      margin-left: 50%;
+      background-color: #FFF!important;
+}
+
+.row {
+  max-width: none!important;
+}
+
+.left-content {
+  background-color: #FFF!important;
+  border-right: none!important;
+}
+.right-content {
+  background-color: #FFF!important;
+}
+
+
