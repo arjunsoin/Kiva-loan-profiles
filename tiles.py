@@ -1,3 +1,8 @@
+## This scripts uses a webdriver to parse dynamically generated search queries 
+## that filter borrowers by loan ID and funded/fundrasining. The output is then
+## written into an html file and converted to an image using 'GrabzIt HTMLtoImage' 
+## API. The image is then suitably cropped using PIL package in python.
+
 import requests
 import bs4
 import imgkit
@@ -27,7 +32,7 @@ for n in url_list:
 	html = browser.page_source
 	soup = BeautifulSoup(html,"lxml")
 
-	s = 91929 ## replace s with url in for loop 
+	s = 91929 ## placeholder html that is rewritten on each iteration 
 	fl = '%s.html' % s ## replace with url 
 	di = os.getcwd()
 	final = di + "/" + fl
